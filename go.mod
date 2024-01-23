@@ -1,4 +1,4 @@
-module github.com/argoproj/gitops-engine
+module github.com/asaf-erlich/gitops-engine
 
 go 1.21
 
@@ -100,7 +100,6 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.28.4
-	k8s.io/endpointslice => k8s.io/endpointslice v0.28.4
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.28.4
 	k8s.io/apimachinery => k8s.io/apimachinery v0.28.4
 	k8s.io/apiserver => k8s.io/apiserver v0.28.4
@@ -115,6 +114,7 @@ replace (
 	k8s.io/cri-api => k8s.io/cri-api v0.28.4
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.28.4
 	k8s.io/dynamic-resource-allocation => k8s.io/dynamic-resource-allocation v0.28.4
+	k8s.io/endpointslice => k8s.io/endpointslice v0.28.4
 	k8s.io/kms => k8s.io/kms v0.28.4
 	k8s.io/kube-aggregator => k8s.io/kube-aggregator v0.28.4
 	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.28.4
